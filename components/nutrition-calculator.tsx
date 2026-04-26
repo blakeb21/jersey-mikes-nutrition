@@ -109,7 +109,7 @@ export function NutritionCalculator() {
       </div>
 
       {/* Item list */}
-      <ScrollArea className="flex-1">
+      <ScrollArea className="flex-1 min-h-0">
         <ItemList items={filteredItems} onSelect={handleSelectItem} />
         <footer className="border-t px-5 py-6 text-center">
           <p className="text-xs text-muted-foreground">
